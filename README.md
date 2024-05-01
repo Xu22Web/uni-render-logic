@@ -2,7 +2,7 @@
 
 ### 描述
 
-- 基于 [renderjs](https://uniapp.dcloud.net.cn/tutorial/renderjs.html#renderjs) 通过自定义组件直接操作浏览器环境下的 DOM 和 BOM，参考 `example/MSnapshot.vue` 调用 `canvas` 生成视频海报
+- 基于 [renderjs](https://uniapp.dcloud.net.cn/tutorial/renderjs.html#renderjs) 通过自定义组件直接操作浏览器环境下的 DOM 和 BOM，参考 `./example` 文件夹调用 `canvas` 生成视频海报
 
   1.  分别在视图层和逻辑层导入
 
