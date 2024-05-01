@@ -7,6 +7,7 @@
   1.  分别在视图层和逻辑层导入
 
       ```html
+      <!-- MyComp.vue -->
       <!-- 视图层 -->
       <script>
         import { renderMixin } from 'uni-render-logic'
@@ -38,6 +39,7 @@
   3.  示例
 
       ```html
+      <!-- MyComp.vue -->
       <!-- 视图层 -->
       <script>
         import { renderMixin } from 'uni-render-logic'
@@ -60,7 +62,7 @@
 
       <!-- 逻辑层 -->
       <script module="<moduleName>" lang="renderjs">
-        import { logicMixin } from '@/mixins/logic'
+        import { logicMixin } from 'uni-render-logic'
 
         export default {
         mixins: [logicMixin],

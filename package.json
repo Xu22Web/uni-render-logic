@@ -1,7 +1,9 @@
 {
   "name": "uni-render-logic",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "uni-app renderjs 逻辑层和视图层跨层调用 mixin",
+  "author": "xu22web <https://github.com/xu22web>",
+  "license": "MIT",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
@@ -29,11 +31,8 @@
   "keywords": [
     "uni-app",
     "vue",
-    "vue3",
     "renderjs"
   ],
-  "author": "xu22web",
-  "license": "MIT",
   "devDependencies": {
     "@types/node": "^20.12.7",
     "tsup": "^8.0.2",
