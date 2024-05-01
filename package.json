@@ -1,0 +1,48 @@
+{
+  "name": "uni-render-logic",
+  "version": "1.0.0",
+  "description": "uni-app renderjs 逻辑层和视图层跨层调用 mixin",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "scripts": {
+    "dev": "tsup --watch",
+    "build": "tsup"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xu22web/uni-render-logic.git"
+  },
+  "bugs": {
+    "url": "https://github.com/xu22web/uni-render-logic/issues"
+  },
+  "keywords": [
+    "uni-app",
+    "vue",
+    "vue3",
+    "renderjs"
+  ],
+  "author": "xu22web",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.12.7",
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "vue": "^3.4.26"
+  },
+  "peerDependencies": {
+    "vue": "^3.4.26"
+  }
+}
