@@ -1,6 +1,6 @@
 {
   "name": "uni-render-logic",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "uni-app renderjs 逻辑层和视图层跨层调用 mixin",
   "author": "xu22web <https://github.com/xu22web>",
   "license": "MIT",
